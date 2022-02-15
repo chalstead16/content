@@ -42,6 +42,8 @@ A string with all array elements joined. If `arr.length` is
 
 The string conversions of all array elements are joined into one string.
 
+Does not mutate the original array.
+
 > **Warning:** If an element is `undefined`, `null` or an empty array
 > `[]`, it is converted to an empty string.
 
